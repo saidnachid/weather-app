@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <i class="bx bx-left-arrow-alt"></i>
+        <h2>Weather App</h2>
+      </div>
+      <div class="main">
+        <p>
+          Find the area or city that you want to know the detailed weather info
+          at this time
+        </p>
+        <div class="info-text">Enter a valid city name</div>
+        <div class="field">
+          <i class="bx bx-search"></i>
+          <input type="text" placeholder="Search City" />
+          <i class="bx bx-x"></i>
+        </div>
+        <button class="button">Get Device Location</button>
+      </div>
+      <div class="weather-result">
+        <img src="sunny.webp" />
+        <div class="temp">
+          <span class="numb">13</span>
+          <span class="deg">°</span>C
+        </div>
+        <div class="weather">Broken Clouds</div>
+        <div class="location">
+          <i class="bx bx-map"></i>
+          <span>Kathmandu, Nepal</span>
+        </div>
+        <div class="details">
+          <div class="column feels">
+            <i class="bx bxs-thermometer"></i>
+            <div class="info">
+              <div class="temp">
+                <span class="numb-2">17</span>
+                <span class="deg">°</span>C
+              </div>
+              <p>Feels like</p>
+            </div>
+          </div>
+          <div class="column humidity">
+            <i class="bx bxs-droplet-half"></i>
+            <div class="info">
+              <span class="numb">87%</span>
+
+              <p>Humidity</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
